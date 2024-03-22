@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className='block md:hidden'>
+      <div className='block md:hidden w-screen'>
         <div className=''>
           <div className="flex items-center justify-between bg-grey  w-[100%]  ">
             <div className='h-[60px] w-[3px] bg-black absolute rounded-corner'></div>
