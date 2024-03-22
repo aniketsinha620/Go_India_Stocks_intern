@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 import { FaRegHeart } from "react-icons/fa";
 import { FaRegEye } from "react-icons/fa6";
@@ -9,7 +10,7 @@ const Commentcard = () => {
         <div className='gap-3 bg-gray-200 pb-1 pr-1 md:w-[95%]'>
             <div className=' w-[100%] md:w-[100%] bg-white flex border gap-2 md:gap-0 border-grey border p-2 px-3 rounded-lg' style={{ boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px' }}>
                 <div className='w-[20%] ' >
-                    <img src="/images/download.jpeg" alt=""
+                    <Image src="/images/download.jpeg" alt=""
                         className='w-[50px] h-[30px] rounded-full md:w-[50px] md:h-[50px]' />
                 </div>
 
